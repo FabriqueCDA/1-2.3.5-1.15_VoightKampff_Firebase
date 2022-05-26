@@ -1,0 +1,92 @@
+[
+    {
+        "enonce":"Un collègue de travail vous apprend qu'il a malencontreusement écrasé un petit insecte. Quelle est votre réaction ?",
+        "reponses":[
+            {"reponse":"Vous êtes infiniment triste", "score":1000},
+            {"reponse":"Bof, ce n'était qu'un insecte", "score":100},
+            {"reponse":"Vous compatissez, mais au fond, vous vous en fichez un peu", "score":0},
+            {"reponse":"Tant mieux ! Vous detestez ces petites bêtes", "score":500}
+        ]
+    },
+    {
+        "enonce":"Vous regardez un film à la télé. Soudainement une guêpe se pose sur votre bras et le remonte. Quelle sera votre réaction ?",
+        "reponses":[
+            {"reponse":"Une quoi ?", "score":100},
+            {"reponse":"Je l'éjecte", "score":0},
+            {"reponse":"Je la savoure", "score":1000},
+            {"reponse":"Je l’attrappe pour l’observer", "score":500}
+        ]
+    },
+    {
+        "enonce":"Vous croisez un sans-abri. Nuit froide. Grande ville. Vous cherchez de la monnaie, et un billet de 20€ tombe de votre poche sur ses genoux. Vous…",
+        "reponses":[
+            {"reponse":"l’échangez contre de la petite monnaie", "score":0},
+            {"reponse":"dites que vous avez fait exprès avec un clin d’oeil entendu", "score":0},
+            {"reponse":"doublez la mise", "score":100},
+            {"reponse":"regardez le billet avec indifférence", "score":1000}
+        ]
+    },
+    {
+        "enonce":"Vous trouvez un algorithme qui vous assure de gagner au loto à tous les coups. Vous...",
+        "reponses":[
+            {"reponse":"en profitez pou jouer et gagner", "score":0},
+            {"reponse":"envoyez un message à la CIA pour leur en parler", "score":100},
+            {"reponse":"écrivez un article scientifique sur le sujet", "score":500},
+            {"reponse":"ne comprenez pas à quoi ça sert", "score":1000}
+        ]
+    },
+    {
+        "enonce":"Un ami vous offre une tequila. Vous avez hérité du verre. Il est temps de...",
+        "reponses":[
+            {"reponse":"l'avaler", "score":0},
+            {"reponse":"l'avaler et en redemander un", "score":0},
+            {"reponse":"le refusez poliment", "score":0},
+            {"reponse":"ne pas cacher son dégoût", "score":1000}
+        ]
+    },
+    {
+        "enonce":"Vous découvrez le goût d'artichaud de la tequila. Un sentiment monte en vous...",
+        "reponses":[
+            {"reponse":"gurps, y a pas que ce goût là", "score":0},
+            {"reponse":"c'est quoi au juste ?", "score":0},
+            {"reponse":"continuez l'analyse", "score":500},
+            {"reponse":"versez une larme vous rappelant le ragoût venusien de votre enfance", "score":1000}
+        ]
+    },
+    {
+        "enonce":"Une belle femme vient vous aborder (un bel homme). Ses charmes explosent littéralement. Après une belle soirée vous vous rendez compte que son sexe n’est pas celui que vous pensiez. Vous...",
+        "reponses":[
+            {"reponse":"continuez la soirée avec cette charmante personne malgré les risques", "score":100},
+            {"reponse":"suggerez un rapport avec ses deux sexes", "score":1000},
+            {"reponse":"prétextez une fatigue soudaine", "score":0},
+            {"reponse":"vous êtes curieux et posez plein de questions techniques", "score":500}
+        ]
+    },
+    {
+        "enonce":"Après un accident, alors que vous conduisiez, votre ami a une blessure grave. Vous vous sentez...",
+        "reponses":[
+            {"reponse":"ennuyé qu’il remette l’échéance inévitable à plus tard", "score":1000},
+            {"reponse":"convaincu que c’est un détail", "score":500},
+            {"reponse":"paniqué à l’idée qu’il disparaisse", "score":0},
+            {"reponse":"prête à appeler les secours", "score":0}
+        ]
+    },
+    {
+        "enonce":"Une tortue est retournée sur le dos en plein soleil. Si vous la laissez elle mourra. Vous...",
+        "reponses":[
+            {"reponse":"passez votre chemin", "score":500},
+            {"reponse":"la retournez en lui faisant la morale", "score":0},
+            {"reponse":"la regardez en vous demandant ce qu'est la méditation sur la vie", "score":1000},
+            {"reponse":"mettez fin à ses souffrances", "score":100}
+        ]
+    },
+    {
+        "enonce":"Parlez-moi de votre mère...",
+        "reponses":[
+            {"reponse":"quoi ma mère ?", "score":1000},
+            {"reponse":"quoi ma mère pu... ???", "score":1000},
+            {"reponse":"j'vais t'en parler d'ma mère", "score":1000},
+            {"reponse":"Heuuu, elle est bonlangère pourquoi ?", "score":0}
+        ]
+    }
+]
