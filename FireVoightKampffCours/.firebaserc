@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "extraterritorialtest": {
+      "hosting": {
+        "FireVoightKampffCours": [
+          "extraterritorialtest"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "extraterritorialtest"
+  }
+}

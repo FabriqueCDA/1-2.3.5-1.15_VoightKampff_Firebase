@@ -1,0 +1,13 @@
+<h2>{{ store.pages.compte.titre }}</h2>
+<blockquote [innerHTML]="store.pages.compte.contenu"></blockquote>
+
+<form (submit)="auth.creeFireCompte()" class="horizontal">
+    <input name="id" [(ngModel)]="auth.user.email" placeholder="Renseignez votre identifiant">
+    <input type="password" [(ngModel)]="auth.user.pass" name="pass" placeholder="Renseignez votre mot de passe">
+    <input name="nom" [(ngModel)]="auth.user.displayName" placeholder="Un pseudo ?">
+    <input name="photo" [(ngModel)]="auth.user.photoURL" placeholder="Un lien vers une photo de profil">
+    <input type="checkbox" name="emailVerified" [checked]="auth.user.emailVerified" [(ngModel)]="auth.user.emailVerified">
+    <label>L'email a-t-il été vérifié ?</label>
+    <input type="reset" value="Effacer">
+    <input type="submit" value="Yeeaaahhh !">
+</form>

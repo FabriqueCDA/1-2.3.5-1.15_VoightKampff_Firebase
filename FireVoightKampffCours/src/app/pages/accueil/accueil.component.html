@@ -1,0 +1,8 @@
+<section *ngIf="store.pages['accueil']">
+    <h2>
+        {{ store.pages['accueil'].titre }}
+    </h2>
+    <article [innerHTML]="store.pages['accueil'].contenu">        
+    </article>
+    <button [routerLink]="store.pages['accueil'].bouton.lien">{{ store.pages['accueil'].bouton.contenu }}</button>
+</section>

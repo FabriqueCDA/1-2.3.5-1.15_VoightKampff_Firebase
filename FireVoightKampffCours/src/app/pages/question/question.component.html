@@ -1,0 +1,8 @@
+<h2>{{ store.pages.questions.titre }}</h2>
+<blockquote>{{ store.pages.questions.contenu }}</blockquote>
+<h3>{{ question.enonce }}</h3>
+<fieldset *ngFor="let r of question.reponses">
+    <input type="radio" name="reponse" [value]="r.score" [(ngModel)]="rep">
+    <label>{{ r.reponse }}</label>
+</fieldset>
+<button (click)="changeQuestion()" class="valide">></button>

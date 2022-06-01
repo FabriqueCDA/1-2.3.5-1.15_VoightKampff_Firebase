@@ -1,0 +1,6 @@
+<section>
+    <article *ngFor="let q of agents.questionnaires; let i=index">
+        <h3>{{ i+1 }} - {{ q.displayName }} ({{ q.uid }})</h3>
+        <h4>Score d'aliénitude : {{ q.score }}</h4>
+    </article>
+</section>

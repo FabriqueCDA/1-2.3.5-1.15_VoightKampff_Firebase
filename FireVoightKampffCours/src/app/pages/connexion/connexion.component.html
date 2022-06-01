@@ -1,0 +1,11 @@
+<h2>{{ store.pages.connexion.titre }}</h2>
+<blockquote [innerHTML]="store.pages.connexion.contenu"></blockquote>
+<form (submit)="auth.idFireUser()" *ngIf="!auth.user.uid">
+    <input name="id" [(ngModel)]="auth.user.email" placeholder="Renseignez votre identifiant" (input)="log()">
+    <input type="password" [(ngModel)]="auth.user.pass" name="pass" placeholder="Renseignez votre mot de passe">
+    <input type="reset" value="Effacer">
+    <input type="submit" value="Yeeaaahhh !">
+</form>
+<article *ngIf="auth.user.uid">
+    <button (click)="auth.signAhwout()">Se déconnecter</button>
+</article>

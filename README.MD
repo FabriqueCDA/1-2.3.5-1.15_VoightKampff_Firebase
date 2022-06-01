@@ -21,7 +21,7 @@ Dans la console, cliquez sur 'Créer un projet', trouvez-lui un nom. Un petit to
 
 ### Quelques infos vite fait
 #### Formules
-Deux formules sont disponibles : Spark, Blaze. La première est gratuite mais limitée, la seconde potentiellement payante mais nécessaire pour utiliser les fonctions intrduite ci-dessous.
+Deux formules sont disponibles : Spark, Blaze. La première est gratuite mais limitée, la seconde potentiellement payante mais nécessaire pour utiliser les fonctions introduites ci-dessous.
 
 #### Les fonctionnalités initiales pour les développeurs
 Permettra de créer des comptes et d'administrer les accès côté front et back.
